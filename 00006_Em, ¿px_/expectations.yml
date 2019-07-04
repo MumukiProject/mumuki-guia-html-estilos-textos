@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.relativa
+  inspection: DeclaresStyle:font-size:4em
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.abolsuta
+  inspection: DeclaresStyle:font-size:20px
