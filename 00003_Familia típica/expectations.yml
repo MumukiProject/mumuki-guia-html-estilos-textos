@@ -1,5 +1,5 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:h2
+  binding: css:p
   inspection: 'DeclaresStyle:font-family: "Times New Roman", "Georgia", Serif'
