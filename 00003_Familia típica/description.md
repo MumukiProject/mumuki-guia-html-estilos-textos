@@ -3,7 +3,7 @@ Para cambiar la fuente vamos a usar la propiedad `font-family` a la cual le dire
 > Copiá el siguiente código en el editor:
 
 > ```css
-> p {
+> h2 {
 > font-family: "Times New Roman", "Georgia", Serif;
 > }
 > ```
