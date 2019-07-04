@@ -1,0 +1,26 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:body
+  inspection: 'DeclaresStyle:background-color: NOMBRECOLOR'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: DeclaresStyle:color:rgb(xx,xx,xx)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:section
+  inspection: DeclaresStyle:color:NOMBRECOLOR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.titulo
+  inspection: DeclaresStyle:color:NOMBRECOLOR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/section/h2
+  inspection: DeclaresAttribute:class="titulo"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: html/body/aside/h2
+  inspection: DeclaresAttribute:class="titulo"
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:h2
+  inspection: DeclaresStyle:font-family:fuente-s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:p
+  inspection: DeclaresStyle:font-family:fuente-ss
