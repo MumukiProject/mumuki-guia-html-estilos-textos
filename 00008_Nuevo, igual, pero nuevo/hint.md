@@ -1,0 +1,1 @@
+Recordá que el selector de un **selector de clase** se escribe con un `.` justo antes del nombre de la clase.
