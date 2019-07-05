@@ -17,7 +17,7 @@ expectations:
   inspection: DeclaresAttribute:class="titulo"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html/body/aside/h2
-  inspection: DeclaresAttribute:class="titulo"
+  inspection: Not:DeclaresAttribute:class="titulo"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:h2
   inspection: DeclaresStyle:font-family:fuente-s
