@@ -7,3 +7,4 @@ Para cambiar la fuente vamos a usar la propiedad `font-family` a la cual le dire
 > font-family: "Times New Roman", "Georgia", Serif;
 > }
 > ```
+> y luego envialo.
