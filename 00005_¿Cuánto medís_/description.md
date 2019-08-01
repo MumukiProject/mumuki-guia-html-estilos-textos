@@ -4,10 +4,10 @@ Vimos que para darle un sentido especial a nuestro texto nos ayudamos usando dif
 
 > ```css
 > .primer-parrafo {
-> font-size: 10px;
+>   font-size: 10px;
 > }
 > .segundo-parrafo {
-> font-size: 10em;
+>   font-size: 10em;
 > }
 >```
 > y envialo.
