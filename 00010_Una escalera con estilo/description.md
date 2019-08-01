@@ -4,14 +4,14 @@ Nos pidieron que hagamos una página web un poco loca :stuck_out_tongue:. Necesi
 >
 > ```css
 > .parrafo-a-la-izquierda {
-> text-align: left;
+>   text-align: left;
 > }
 > 
 > .parrafo-a-la-derecha {
-> text-align: right;
+>   text-align: right;
 > }
 > 
 > .parrafo-al-centro {
-> text-align: center;
+>   text-align: center;
 > }
 > ```
