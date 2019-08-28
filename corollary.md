@@ -1,1 +1,1 @@
-¡Genial! Ya sabés cómo darle estilo a una página web cambiando los colores, las fuentes y alineando los textos. Pero… ¿y si queremos cambiar las cosas de lugar? ¿O hacerle bordes a nuestros textos? ¿Se podrá? :scream: ¡Claro que sí! Sigamos descubriendo el potencial de CSS. :satisfied:
+¡Genial! Ya sabés cómo darle estilo a una página web cambiando los colores, las fuentes y alineando los textos. Pero… ¿y si queremos cambiar las cosas de lugar? ¿O hacerle bordes a nuestros textos? ¿Se podrá? :scream: ¡Claro que sí! Sigamos descubriendo el potencial de CSS. :grin:
