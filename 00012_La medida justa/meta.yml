@@ -1,9 +1,10 @@
 ---
 tags: []
-layout: input_right
-editor: code
+layout: input_bottom
+editor: free_form
 type: problem
 extra_visible: false
+language: text
 manual_evaluation: false
 choices: []
 name: La medida justa
