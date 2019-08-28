@@ -4,4 +4,6 @@ Así como las personas usamos diferentes unidades de longitud (como metros :stra
 
 Las unidades relativas son todo lo contrario a las absolutas. Se redimensionan respecto al tamaño de la fuente o a la ventana actual y son las más aconsejadas a la hora de hacer una página web por esta característica :computer:. La más utilizada es `em`, que representa el tamaño de una letra `m`: `2em` equivale a `mm`, `5em` a `mmmmm`. 
 
+¡Ahora te toca a vos! Hagamos que _"Lorem ipsum"_ tenga un tamaño con unidad relativa y _"Maecenas"_ con unidad absoluta.
+
 > Creá las reglas para que la clase `absoluta` tenga un `font-size` de `10px` y la clase `relativa` un `font-size` de `5em`. Fijate como cambian los tamaños.
