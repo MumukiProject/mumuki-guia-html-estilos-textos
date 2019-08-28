@@ -2,16 +2,16 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:body
-  inspection: 'DeclaresStyle:background-color: NOMBRECOLOR'
+  inspection: DeclaresStyle:background-color:tan
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:color: rgb(xx,xx,xx)'
+  inspection: 'DeclaresStyle:color:color: rgb(139, 0, 0)'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:section
-  inspection: 'DeclaresStyle:color: NOMBRECOLOR'
+  inspection: DeclaresStyle:color:saddlebrown
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
-  inspection: 'DeclaresStyle:color: NOMBRECOLOR'
+  inspection: DeclaresStyle:color:maroon
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html/body/section/h2
   inspection: DeclaresAttribute:class="titulo"
@@ -19,16 +19,13 @@ expectations:
   binding: html/body/aside/h2
   inspection: Not:DeclaresAttribute:class="titulo"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:h2
-  inspection: 'DeclaresStyle:font-family: fuente-s'
+  binding: css:.titulo
+  inspection: DeclaresStyle:font-family:"Georgia", serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:p
-  inspection: 'DeclaresStyle:font-family: fuente-ss'
+  binding: css:.texto
+  inspection: DeclaresStyle:font-family:"Verdana", sans-serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:li
-  inspection: 'DeclaresStyle:font-size: 1.5em'
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:p
+  binding: css:.texto
   inspection: 'DeclaresStyle:font-size: 1.5em'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
@@ -40,8 +37,17 @@ expectations:
   binding: css:.titulo
   inspection: 'DeclaresStyle:font-style: italic'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:header
+  inspection: 'DeclaresStyle:font-style: italic'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:footer
+  inspection: 'DeclaresStyle:font-style: italic'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:footer
+  inspection: 'DeclaresStyle:font-weight: bold'
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
   inspection: 'DeclaresStyle:text-align: center'
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:p
+  binding: css:.texto
   inspection: 'DeclaresStyle:text-align: justify'
