@@ -4,7 +4,7 @@ Para cambiar la fuente vamos a usar la propiedad `font-family` a la cual le dire
 
 > ```css
 > h2 {
-> font-family: "Times New Roman", "Georgia", serif;
+>   font-family: "Times New Roman", "Georgia", serif;
 > }
 > ```
 > y luego envialo.
