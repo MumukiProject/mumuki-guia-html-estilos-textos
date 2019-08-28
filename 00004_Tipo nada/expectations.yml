@@ -20,7 +20,7 @@ expectations:
   inspection: Not:DeclaresAttribute:class="titulo"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
-  inspection: DeclaresStyle:font-family:"Georgia", Serif
+  inspection: DeclaresStyle:font-family:"Georgia", serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
-  inspection: DeclaresStyle:font-family:"Verdana", Sans-serif
+  inspection: DeclaresStyle:font-family:"Verdana", sans-serif
