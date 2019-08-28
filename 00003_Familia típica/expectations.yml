@@ -2,4 +2,4 @@
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:h2
-  inspection: 'DeclaresStyle:font-family: "Times New Roman", "Georgia", Serif'
+  inspection: DeclaresStyle:font-family:"Times New Roman", "Georgia", serif
