@@ -1,17 +1,17 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: body
-  inspection: 'DeclaresStyle:background-color: bisque'
+  binding: css:body
+  inspection: DeclaresStyle:background-color:bisque
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:aside
-  inspection: 'DeclaresStyle:color: blue'
+  inspection: DeclaresStyle:color:blue
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo-genero
-  inspection: 'DeclaresStyle:color: rgb(255,91,129)'
+  inspection: DeclaresStyle:color:rgb(255,91,129)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo-pelicula
-  inspection: 'DeclaresStyle:color: rgb(11,70,93)'
+  inspection: DeclaresStyle:color:rgb(11,70,93)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: html/body/section/h1
   inspection: DeclaresAttribute:class="titulo-genero"
@@ -20,19 +20,19 @@ expectations:
   inspection: DeclaresAttribute:class="titulo-pelicula"
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo-pelicula
-  inspection: 'DeclaresStyle:font-style: italic'
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
-  inspection: 'DeclaresStyle:font-family: "Verdana", sans-serif'
+  inspection: DeclaresStyle:font-family:"Verdana", sans-serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:font-style: italic'
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:font-weight: bold'
+  inspection: DeclaresStyle:font-weight:bold
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:text-align: center'
+  inspection: DeclaresStyle:text-align:center
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:font-size: 15px'
+  inspection: DeclaresStyle:font-size:15px
