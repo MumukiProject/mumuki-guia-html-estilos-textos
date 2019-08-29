@@ -1,1 +1,1 @@
-Recordá que la clase que afecta a los títulos es `titulo` y que para alinear textos tenemos la propiedad `text-align` que puede ser usada con los valores `right`, `left`, `center` o `justify`.
+Recordá que la clase que afecta a los títulos es `titulo` y a los textos es `texto`. Para alinear textos tenemos la propiedad `text-align` que puede ser usada con los valores `right`, `left`, `center` o `justify`.
