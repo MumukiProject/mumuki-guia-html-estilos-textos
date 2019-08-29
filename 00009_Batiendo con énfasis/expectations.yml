@@ -23,7 +23,7 @@ expectations:
   inspection: DeclaresStyle:font-family:"Georgia", serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
-  inspection: DeclaresStyle:fon-family:"Verdana", sans-serif
+  inspection: DeclaresStyle:font-family:"Verdana", sans-serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
   inspection: DeclaresStyle:font-size:1.5em
