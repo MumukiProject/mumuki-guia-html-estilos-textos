@@ -26,28 +26,28 @@ expectations:
   inspection: DeclaresStyle:font-family:"Verdana", sans-serif
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
-  inspection: 'DeclaresStyle:font-size: 1.5em'
+  inspection: DeclaresStyle:font-size:1.5em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
-  inspection: 'DeclaresStyle:font-size: 3em'
+  inspection: DeclaresStyle:font-size:3em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:h1
-  inspection: 'DeclaresStyle:font-size: 4em'
+  inspection: DeclaresStyle:font-size:4em
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
-  inspection: 'DeclaresStyle:font-style: italic'
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:font-style: italic'
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:font-style: italic'
+  inspection: DeclaresStyle:font-style:italic
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:footer
-  inspection: 'DeclaresStyle:font-weight: bold'
+  inspection: DeclaresStyle:font-weight:bold
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.titulo
-  inspection: 'DeclaresStyle:text-align: center'
+  inspection: DeclaresStyle:text-align:center
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.texto
-  inspection: 'DeclaresStyle:text-align: justify'
+  inspection: DeclaresStyle:text-align:justify
