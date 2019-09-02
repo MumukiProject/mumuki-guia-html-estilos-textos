@@ -5,7 +5,7 @@ expectations:
   inspection: DeclaresStyle:background-color:tan
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:header
-  inspection: 'DeclaresStyle:color: rgb(139, 0, 0)'
+  inspection: DeclaresStyle:color:rgb(139, 0, 0)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:section
   inspection: DeclaresStyle:color:saddlebrown
