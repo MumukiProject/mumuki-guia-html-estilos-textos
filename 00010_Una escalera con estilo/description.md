@@ -1,4 +1,4 @@
-Nos pidieron que hagamos una página web un poco loca :crazy_face:. Necesitan que los párrafos estén como en "escalerita". ¡Veamos cómo hacerlo!
+Nos pidieron que hagamos una página web un poco particular :crazy_face:. Necesitan que los párrafos estén como en "escalerita". ¡Veamos cómo hacerlo!
 
 > Copiá el siguiente código en el editor y apretá _Enviar_.
 >
