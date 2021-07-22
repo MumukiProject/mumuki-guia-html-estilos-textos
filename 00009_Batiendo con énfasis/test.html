@@ -1,4 +1,15 @@
 /*<output#*//*#output>*/
-/*<tests#*//*#tests>*/
+/*<tests#*/it("Los elementos de la clase titulo están en cursiva", () => {
+  document.querySelector('.titulo').should.have.style("font-style", "italic");
+});
+it("El header está en cursiva", () => {
+  document.querySelector('header').should.have.style("font-style", "italic");
+});
+it("El footer está en cursiva", () => {
+  document.querySelector('footer').should.have.style("font-style", "italic");
+});
+it("El footer está en negrita", () => {
+  document.querySelector('footer').should.have.style("font-style", "bold");
+});/*#tests>*/
 /*<options#*/output_ignore_scripts: true
 output_ignore_styles: true/*#options>*/
